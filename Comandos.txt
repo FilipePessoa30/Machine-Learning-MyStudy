@@ -1,0 +1,20 @@
+lista os pips instalados
+pip freeze
+
+instalar o requests
+pip install requests
+
+criar ambiente virtual
+python -m venv env
+
+para outros ambientes
+python -m virtualenv env
+
+executa ambiente virtual
+...env\Scripts\Activate
+
+desativar ambiente virtual
+deactivate
+
+criar o arquivo txt do requirements
+pip freeze > requirements.txt
